@@ -1,9 +1,11 @@
-﻿using Catalog.API.Entities;
+﻿// -----------------------------------------------------------------------
+// <copyright file="ICatalogContext.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
+
+using Catalog.API.Entities;
 using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Catalog.API.Data
 {

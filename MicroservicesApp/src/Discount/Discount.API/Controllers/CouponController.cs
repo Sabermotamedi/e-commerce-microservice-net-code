@@ -9,13 +9,13 @@ namespace Discount.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class CouponController : ControllerBase
     {       
-        private readonly ILogger<WeatherForecastController> _logger;
+       
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public CouponController()
         {
-            _logger = logger;
+
         }
 
         [HttpGet]

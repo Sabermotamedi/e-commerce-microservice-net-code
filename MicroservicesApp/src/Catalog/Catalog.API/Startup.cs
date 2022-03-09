@@ -1,3 +1,10 @@
+// -----------------------------------------------------------------------
+// <copyright file="Startup.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
+
+using System.Linq;
 using Catalog.API.Data;
 using Catalog.API.Repositories;
 using Microsoft.AspNetCore.Builder;
@@ -6,7 +13,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using System.Linq;
 
 namespace Catalog.API
 {

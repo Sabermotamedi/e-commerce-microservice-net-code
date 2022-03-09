@@ -1,7 +1,10 @@
-﻿using Discount.API.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿// -----------------------------------------------------------------------
+// <copyright file="IDiscountRepository.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
+
+using Discount.API.Entities;
 using System.Threading.Tasks;
 
 namespace Discount.API.Repositories

@@ -1,10 +1,12 @@
-﻿using Discount.API.Entities;
+﻿// -----------------------------------------------------------------------
+// <copyright file="CouponController.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
+
+using Discount.API.Entities;
 using Discount.API.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -15,10 +17,7 @@ namespace Discount.API.Controllers
     public class CouponController : ControllerBase
     {
         private readonly IDiscountRepository discountRepository;
-        /// <summary>
-        /// Initializes a new instance of the <see cref="CouponController"/> class.
-        /// </summary>
-        /// <param name="discountRepository">discountRepository</param>
+
         public CouponController(IDiscountRepository discountRepository)
         {
             this.discountRepository = discountRepository;
@@ -53,6 +52,5 @@ namespace Discount.API.Controllers
         {
             return this.Ok(await this.discountRepository.DeleteDiscount(productName));
         }
-
     }
 }

@@ -1,11 +1,11 @@
+// -----------------------------------------------------------------------
+// <copyright file="Program.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
+
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Discount.API
 {

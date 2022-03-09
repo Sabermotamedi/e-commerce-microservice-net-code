@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿// -----------------------------------------------------------------------
+// <copyright file="Coupon.cs" company="SaberMotamedi">
+// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
+// </copyright>
+// -----------------------------------------------------------------------
 
 namespace Discount.API.Entities
 {

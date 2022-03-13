@@ -5,13 +5,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
 		<PackageReference Include="Grpc.AspNetCore" Version="2.43.0" />
 		<PackageReference Include="dapper" Version="2.0.123" />
 		<PackageReference Include="Npgsql" Version="6.0.3" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>

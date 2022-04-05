@@ -33,7 +33,6 @@ namespace Basket.API.Repository
         {
             await _cache.SetStringAsync(shoppingCart.Username, JsonConvert.SerializeObject(shoppingCart));
             return await GetBasket(shoppingCart.Username);
-
         }
     }
 }

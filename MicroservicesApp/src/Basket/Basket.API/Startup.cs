@@ -30,10 +30,11 @@ namespace Basket.API
         {
             services.AddStackExchangeRedisCache(option =>
             {
-                option.Configuration = Configuration.GetValue<string>("CashSetting:ConnectionString");
+                option.Configuration = Configuration.GetValue<string>("CasheSetting:ConnectionString");
             });
             services.AddControllers();
             services.AddScoped<IBasketRepository, BasketRepository>();
+
             services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
                 (o=>o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
 

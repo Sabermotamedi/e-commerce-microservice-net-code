@@ -5,11 +5,15 @@
     "iis": {
       "applicationUrl": "http://localhost:5003",
       "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5003",
+      "sslPort": 0
     }
   },
   "profiles": {
     "Discount.Grpc": {
-      "commandName": "IIS",
+      "commandName": "IISExpress",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

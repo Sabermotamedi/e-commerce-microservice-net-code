@@ -23,17 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "src\Discou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{6770D4A8-B126-443A-90BD-28A2A9B361A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "src\Ordering\Ordering.API\Ordering.API.csproj", "{475DECF3-3310-419A-B4A2-58805155E6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "src\Ordering\Ordering.API\Ordering.API.csproj", "{475DECF3-3310-419A-B4A2-58805155E6C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "src\Ordering\Ordering.Application\Ordering.Application.csproj", "{33481058-05A7-4A2E-8904-BFFABFB51E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "src\Ordering\Ordering.Application\Ordering.Application.csproj", "{33481058-05A7-4A2E-8904-BFFABFB51E75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "src\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{556E4B4E-C98F-4BB4-B62B-8C48EED82353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "src\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{556E4B4E-C98F-4BB4-B62B-8C48EED82353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "src\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{E633F653-9204-44D6-8AE8-63D103986085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "src\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{E633F653-9204-44D6-8AE8-63D103986085}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{66CA841D-0BDA-4E6B-A488-AB396E194982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "src\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{036540C9-3F49-4E19-AB2C-11EF5471B3F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "src\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{036540C9-3F49-4E19-AB2C-11EF5471B3F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{2823BD1F-33C6-4359-B23E-E2C118E52E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "src\ApiGateway\OcelotApiGw\OcelotApiGw.csproj", "{64348D84-DDBC-4019-941F-B02B82B1A9D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{036540C9-3F49-4E19-AB2C-11EF5471B3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{036540C9-3F49-4E19-AB2C-11EF5471B3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{036540C9-3F49-4E19-AB2C-11EF5471B3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64348D84-DDBC-4019-941F-B02B82B1A9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64348D84-DDBC-4019-941F-B02B82B1A9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64348D84-DDBC-4019-941F-B02B82B1A9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64348D84-DDBC-4019-941F-B02B82B1A9D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +108,8 @@ Global
 		{E633F653-9204-44D6-8AE8-63D103986085} = {6770D4A8-B126-443A-90BD-28A2A9B361A7}
 		{66CA841D-0BDA-4E6B-A488-AB396E194982} = {75DB81E9-16BA-4C3D-8F1C-4EEB77D6102E}
 		{036540C9-3F49-4E19-AB2C-11EF5471B3F8} = {66CA841D-0BDA-4E6B-A488-AB396E194982}
+		{2823BD1F-33C6-4359-B23E-E2C118E52E2C} = {75DB81E9-16BA-4C3D-8F1C-4EEB77D6102E}
+		{64348D84-DDBC-4019-941F-B02B82B1A9D3} = {2823BD1F-33C6-4359-B23E-E2C118E52E2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {807B403B-6ED4-434F-80BD-E7D85E2D1299}

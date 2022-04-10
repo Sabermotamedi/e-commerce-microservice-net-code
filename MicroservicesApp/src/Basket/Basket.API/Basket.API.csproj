@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="dapper" Version="2.0.123" />
     <PackageReference Include="Grpc.AspNetCore" Version="2.43.0" />
+    <PackageReference Include="MassTransit" Version="8.0.1" />
+    <PackageReference Include="MassTransit.aspnetcore" Version="7.3.1" />
+    <PackageReference Include="MassTransit.Rabbitmq" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -18,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj" />
     <ProjectReference Include="..\..\Discount\Discount.Grpc\Discount.Grpc\Discount.Grpc.csproj" />
   </ItemGroup>
 

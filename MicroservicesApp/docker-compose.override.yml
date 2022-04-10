@@ -38,6 +38,13 @@ services:
      volumes:
        - pgadmin_data:/root/.pgadmin
 
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
+
   catalog.api:
     container_name: catalog.api
     environment:
@@ -78,4 +85,15 @@ services:
       - discountdb
     ports:
       - "8003:80"
+
+
+  ordering.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=123"           
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:      
+      - rabbitmq
+    ports:
+      - "8004:80"
 

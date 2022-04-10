@@ -60,9 +60,11 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CashSetting:ConnectionString=basketdb:6379"
-      - "GrpcSettings:DiscountUrl=discount.grpcdocker"
+      - "GrpcSettings:DiscountUrl=http://discount.grpc"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
     depends_on:
       - basketdb
+      - rabbitmq 
     ports:
       - "8001:80"
 

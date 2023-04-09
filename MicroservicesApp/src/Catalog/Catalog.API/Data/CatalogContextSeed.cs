@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="CatalogContextSeed.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Catalog.API.Entities;
 using MongoDB.Driver;

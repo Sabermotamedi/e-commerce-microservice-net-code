@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="Program.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 

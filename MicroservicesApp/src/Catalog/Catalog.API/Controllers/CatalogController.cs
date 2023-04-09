@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="CatalogController.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Catalog.API.Entities;

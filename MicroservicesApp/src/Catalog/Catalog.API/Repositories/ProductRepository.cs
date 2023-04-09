@@ -1,9 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="ProductRepository.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
+﻿
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Catalog.API.Data;

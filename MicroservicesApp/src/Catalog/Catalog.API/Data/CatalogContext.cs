@@ -1,10 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="CatalogContext.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
-using Catalog.API.Entities;
+﻿using Catalog.API.Entities;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 

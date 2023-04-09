@@ -1,9 +1,3 @@
-// -----------------------------------------------------------------------
-// <copyright file="Startup.cs" company="SaberMotamedi">
-// Copyright (c) SaberMotamedi. All rights reserved.  Developed with 🖤
-// </copyright>
-// -----------------------------------------------------------------------
-
 using System.Linq;
 using Catalog.API.Data;
 using Catalog.API.Repositories;
